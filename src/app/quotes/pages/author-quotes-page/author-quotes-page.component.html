@@ -1,0 +1,7 @@
+<div *ngIf="quotes; else loading">
+  <h1>{{ quotes[0].quoteAuthor }}</h1>
+  <div *ngFor="let quote of quotes">
+    <app-quote [quote]="quote" />
+  </div>
+</div>
+<ng-template #loading><shared-spinner /> </ng-template>

@@ -1,0 +1,8 @@
+<div *ngIf="quote; else loading">
+  <app-quote [quote]="quote" />
+  <app-author
+    [routerLink]="['../author', quote.quoteAuthor]"
+    [author]="quote"
+  />
+</div>
+<ng-template #loading><shared-spinner /></ng-template>

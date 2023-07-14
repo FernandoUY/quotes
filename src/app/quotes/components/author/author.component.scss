@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 60%;
+  height: 9.4375rem;
+  margin: 6.81rem auto auto auto;
+  padding: 1rem 2rem;
+  cursor: pointer;
+
+  .col {
+    h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: normal;
+      color: #4f4f4f;
+    }
+
+    span {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #828282;
+    }
+  }
+
+  .material-icons {
+    visibility: hidden;
+  }
+
+  &:hover {
+    background: #333333;
+
+    .col h3 {
+      color: #f2f2f2;
+    }
+
+    .material-icons {
+      visibility: visible;
+      color: #f2f2f2;
+    }
+  }
+}
