@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://earnest-pastelito-327b46.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,8 +37,6 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
 This is my first project created in Angular.
 I used the API [QuoteGarden](https://github.com/pprathameshmore/QuoteGarden)
 
@@ -46,6 +44,7 @@ I used the API [QuoteGarden](https://github.com/pprathameshmore/QuoteGarden)
 
 - [Node.js](https://nodejs.org/)
 - [Angular](https://angular.io/)
+- [QuoteGarden](https://github.com/pprathameshmore/QuoteGarden)
 
 ## Features
 

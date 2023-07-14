@@ -17,6 +17,10 @@ export const routes: Routes = [
         path: 'author/:name',
         component: AuthorQuotesPageComponent,
       },
+      {
+        path: '**',
+        redirectTo: 'random-quote',
+      },
     ],
   },
 ];
